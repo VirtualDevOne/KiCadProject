@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:L7805 IC1
+L Regulator_Linear:L7805 U1
 U 1 1 61A4A48F
 P 3100 2400
-F 0 "IC1" H 3100 2642 50  0000 C CNN
+F 0 "U1" H 3100 2642 50  0000 C CNN
 F 1 "L7805" H 3100 2551 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 3125 2250 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3100 2350 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J2
+L Connector_Generic:Conn_01x02 K2
 U 1 1 61A4B0D4
 P 4250 2400
-F 0 "J2" H 4330 2392 50  0000 L CNN
+F 0 "K2" H 4330 2392 50  0000 L CNN
 F 1 "Conn_01x02" H 4330 2301 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4250 2400 50  0001 C CNN
 F 3 "~" H 4250 2400 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 4250 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L Connector_Generic:Conn_01x02 K1
 U 1 1 61A4B404
 P 1900 2500
-F 0 "J1" H 1818 2175 50  0000 C CNN
+F 0 "K1" H 1818 2175 50  0000 C CNN
 F 1 "Conn_01x02" H 1818 2266 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 2500 50  0001 C CNN
 F 3 "~" H 1900 2500 50  0001 C CNN
